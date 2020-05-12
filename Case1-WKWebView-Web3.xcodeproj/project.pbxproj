@@ -42,7 +42,7 @@
 		FABDD08F23F2EAF800E87BC5 = {
 			isa = PBXGroup;
 			children = (
-				FABDD09A23F2EAF800E87BC5 /* Case1-WKWebView */,
+				FABDD09A23F2EAF800E87BC5 /* Case1-WKWebView-Web3 */,
 				FABDD09923F2EAF800E87BC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FABDD09A23F2EAF800E87BC5 /* Case1-WKWebView */ = {
+		FABDD09A23F2EAF800E87BC5 /* Case1-WKWebView-Web3 */ = {
 			isa = PBXGroup;
 			children = (
 				FABDD09B23F2EAF800E87BC5 /* AppDelegate.swift */,
@@ -67,7 +67,7 @@
 				FABDD0A923F2EAF900E87BC5 /* Info.plist */,
 				FA3AC951241D628200A55CC3 /* JavascriptCode */,
 			);
-			path = "Case1-WKWebView";
+			path = "Case1-WKWebView-Web3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,12 +290,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM69Q2VYDG;
-				INFOPLIST_FILE = "Case1-WKWebView/Info.plist";
+				INFOPLIST_FILE = "Case1-WKWebView-Web3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.dit.iweb.Case1-WKWebView";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.dit.iweb.Case1-WKWebView-Web3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,12 +308,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM69Q2VYDG;
-				INFOPLIST_FILE = "Case1-WKWebView/Info.plist";
+				INFOPLIST_FILE = "Case1-WKWebView-Web3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.dit.iweb.Case1-WKWebView";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.dit.iweb.Case1-WKWebView-Web3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
