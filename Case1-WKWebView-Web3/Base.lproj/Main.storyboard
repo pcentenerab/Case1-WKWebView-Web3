@@ -10,54 +10,75 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Case1_WKWebView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Case1_WKWebView_Web3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Caso 1: WKWebView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b46-ug-7LF">
-                                <rect key="frame" x="40" y="90" width="349" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAP-ex-Sue">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAP-ex-Sue">
                                 <rect key="frame" x="189" y="195" width="37" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="xDc-0X-EGi"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GhW-HR-VXd">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GhW-HR-VXd">
                                 <rect key="frame" x="172" y="316" width="71" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="kEa-Mv-vSY"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="RESET"/>
                                 <connections>
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V3Z-Cg-732"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CuS-fW-Var">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CuS-fW-Var">
                                 <rect key="frame" x="120" y="301" width="30" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="JoN-om-KZ2"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <state key="normal" title="-"/>
                                 <connections>
                                     <action selector="decr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lkh-3J-tQg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lh5-Gt-6W8">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lh5-Gt-6W8">
                                 <rect key="frame" x="251" y="300" width="39" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <state key="normal" title="+"/>
                                 <connections>
                                     <action selector="incr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nqE-fj-qAl"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caso 1: WKWebView Web3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b46-ug-7LF">
+                                <rect key="frame" x="28" y="63" width="358" height="124"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CuS-fW-Var" secondAttribute="bottom" constant="497" id="8CS-Gf-Xao"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GhW-HR-VXd" secondAttribute="bottom" constant="505" id="AuZ-yu-Ezu"/>
+                            <constraint firstItem="WAP-ex-Sue" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="189" id="Cuy-3y-YHi"/>
+                            <constraint firstItem="WAP-ex-Sue" firstAttribute="centerX" secondItem="GhW-HR-VXd" secondAttribute="centerX" id="IUE-UA-xBi"/>
+                            <constraint firstItem="b46-ug-7LF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="19" id="J3R-Z3-aJu"/>
+                            <constraint firstItem="GhW-HR-VXd" firstAttribute="top" secondItem="WAP-ex-Sue" secondAttribute="bottom" constant="49" id="MUd-ix-Hn0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lh5-Gt-6W8" secondAttribute="trailing" constant="124" id="PSd-dx-cID"/>
+                            <constraint firstItem="b46-ug-7LF" firstAttribute="centerX" secondItem="WAP-ex-Sue" secondAttribute="centerX" id="QUX-gw-YRU"/>
+                            <constraint firstItem="WAP-ex-Sue" firstAttribute="top" secondItem="b46-ug-7LF" secondAttribute="bottom" constant="8" id="RtF-Ek-3I1"/>
+                            <constraint firstItem="b46-ug-7LF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c0N-wL-gGV"/>
+                            <constraint firstItem="lh5-Gt-6W8" firstAttribute="leading" secondItem="GhW-HR-VXd" secondAttribute="trailing" constant="8" id="guG-0Z-GHN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lh5-Gt-6W8" secondAttribute="bottom" constant="498" id="kMv-Ks-pUs"/>
+                            <constraint firstItem="b46-ug-7LF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="rlZ-Yc-Ss8"/>
+                            <constraint firstItem="CuS-fW-Var" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="uvO-og-05g"/>
+                            <constraint firstItem="GhW-HR-VXd" firstAttribute="leading" secondItem="CuS-fW-Var" secondAttribute="trailing" constant="22" id="yJH-kK-9oy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
