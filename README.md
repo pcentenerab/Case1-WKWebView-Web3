@@ -11,7 +11,7 @@
 
 Este repositorio forma parte del proyecto correspondiente a mi Trabajo de Fin de Grado del Grado en Ingeniería de Tecnologías y Servicios de la Telecomunicación en la Universidad Politécnica de Madrid: Desarrollo de un servicio de gestión de asignaturas basado en Blockchain e implementación de clientes nativos para dispositivos iOS. Mi tutor durante el desarrollo del trabajo, defendido en junio de 2020, ha sido Santiago Pavón.
 
-En concreto, Case1-WKWebView-Web3 es una aplicación iOS desarrollada con Xcode que permite la comunicación con una red de tipo Blockchain con Ganache. Esta aplicación es híbrida entre Swift y Javascript, que se comunican por medio de un elemento WKWebView del paquete Webkit de Swift. 
+En concreto, Case1-WKWebView-Web3 es una aplicación iOS desarrollada con Xcode que permite la comunicación con una red de tipo Blockchain con Ganache. Esta aplicación es híbrida entre Swift y Javascript, que se comunican por medio de un elemento WKWebView del paquete Webkit de Swift.  Javascript utiliza la librería Web3.js para acceder al nodo de Ganache.
 
 ## Primeros pasos <a name = "primeros_pasos"></a>
 
